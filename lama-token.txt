@@ -1,0 +1,8 @@
+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
+
+
+
+Host ec2
+    HostName ec2-3.121.230.9.eu-central-1.compute.amazonaws.com
+    User ubuntu
+    IdentityFile C:/Users/arif/lama-project-key.pem

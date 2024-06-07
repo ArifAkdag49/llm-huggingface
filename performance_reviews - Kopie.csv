@@ -1,0 +1,12 @@
+performance_reviews = {
+    'EmployeeID': [1, 2, 3, 4, 5],
+    'ReviewDate': ['2022-12-01', '2022-12-01', '2022-12-01', '2022-12-01', '2022-12-01'],
+    'Score': [90, 85, 88, 92, 80],
+    'Comments': ['Excellent work', 'Good job', 'Meets expectations', 'Outstanding performance', 'Needs improvement']
+}
+
+# DataFrame oluşturma
+performance_reviews_df = pd.DataFrame(performance_reviews)
+
+# CSV dosyasını kaydetme
+performance_reviews_df.to_csv('performance_reviews.csv', index=False)

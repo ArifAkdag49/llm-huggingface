@@ -1,0 +1,4 @@
+ItemID,ItemName,Category,Quantity,ReorderLevel,UnitPrice
+1,Laptop,Electronics,10,5,1000
+2,Office Chair,Furniture,20,10,150
+3,Printer,Electronics,5,2,300

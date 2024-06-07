@@ -1,0 +1,4 @@
+ProjectID,ProjectName,StartDate,EndDate,Status,Budget,Spent
+1,Website Redesign,2022-01-01,2022-06-30,Completed,50000,45000
+2,Mobile App Development,2022-03-01,2022-12-31,In Progress,100000,60000
+3,Marketing Campaign,2022-06-01,2022-09-30,Planned,30000,0

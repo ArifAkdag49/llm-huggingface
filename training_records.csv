@@ -1,0 +1,4 @@
+TrainingID,EmployeeID,CourseName,StartDate,EndDate,Status
+1,1,Advanced Python,2022-01-10,2022-01-20,Completed
+2,2,Leadership Skills,2022-02-15,2022-02-25,In Progress
+3,3,Financial Analysis,2022-03-01,2022-03-10,Completed

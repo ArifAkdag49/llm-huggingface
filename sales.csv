@@ -1,0 +1,4 @@
+SaleID,CustomerID,Product,SaleDate,Amount
+1,1,Product A,2023-01-01,5000
+2,2,Product B,2023-01-02,3000
+3,3,Product C,2023-01-03,7000

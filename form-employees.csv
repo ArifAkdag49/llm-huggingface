@@ -1,0 +1,21 @@
+import pandas as pd
+
+# Boş alanları olan çalışan bilgileri
+employees_template = {
+    'EmployeeID': ['', '', '', '', ''],
+    'Name': ['', '', '', '', ''],
+    'Department': ['', '', '', '', ''],
+    'Role': ['', '', '', '', ''],
+    'Email': ['', '', '', '', ''],
+    'Phone': ['', '', '', '', ''],
+    'HireDate': ['', '', '', '', ''],
+    'VacationDays': ['', '', '', '', ''],
+    'SickDays': ['', '', '', '', ''],
+    'PerformanceScore': ['', '', '', '', '']
+}
+
+# DataFrame oluşturma
+employees_template_df = pd.DataFrame(employees_template)
+
+# CSV dosyasını kaydetme
+employees_template_df.to_csv('employees_template.csv', index=False)
