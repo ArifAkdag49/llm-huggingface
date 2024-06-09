@@ -16,6 +16,6 @@ def read_pdf(data_directory):
     return pdf_text
 
 if __name__ == "__main__":
-    data_directory = "/home/ubuntu/llm-project/data"
+    data_directory = "./data"
     pdf_content = read_pdf(data_directory)
     print(f"PDF Content:\n{pdf_content}")
