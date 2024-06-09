@@ -1,6 +1,0 @@
-EmployeeID,Name,Department,Role,Email,Phone,HireDate,VacationDays,SickDays,PerformanceScore
-1,Ali Yilmaz,IT,Developer,ali@example.com,905321234567,2021-01-01,15,5,90
-2,Ayse Kara,HR,Manager,ayse@example.com,905345678901,2020-05-15,20,3,85
-3,Mehmet Demir,Finance,Accountant,mehmet@example.com,905376543210,2019-08-20,10,7,88
-4,Fatma Sahin,Marketing,Coordinator,fatma@example.com,905398765432,2021-06-01,12,4,92
-5,Ahmet Kaya,Sales,Salesperson,ahmet@example.com,905312345678,2020-09-10,18,6,80
