@@ -23,6 +23,6 @@ def read_and_clean_pdf(data_directory):
     return cleaned_text
 
 if __name__ == "__main__":
-    data_directory = "/home/ubuntu/llm-project/data"
+    data_directory = "./data"
     cleaned_pdf_content = read_and_clean_pdf(data_directory)
     print(f"Cleaned PDF Content:\n{cleaned_pdf_content}")

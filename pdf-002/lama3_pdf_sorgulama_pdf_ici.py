@@ -15,7 +15,7 @@ login(token=HUGGING_FACE_API_TOKEN)
 app = FastAPI()
 
 # PDF içeriğini okuma
-data_directory = "/home/ubuntu/llm-project/data"
+data_directory = "./data"
 pdf_content = read_pdf(data_directory)
 
 def prepare_context():
@@ -36,7 +36,7 @@ def query_model(query):
     answer = response.json()[0]['generated_text']
 
     # PDF içeriğinde sorgunun cevabı olup olmadığını kontrol et
-    if query.lower() in context.lower(): .
+    if query.lower() in context.lower(): 
     
         return answer
     else:
