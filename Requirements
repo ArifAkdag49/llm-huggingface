@@ -14,3 +14,5 @@ pip install transformers  huggingface_hub torch pandas PyMuPDF
 
 pip install matplotlib numpy
 
+pip install fastapi uvicorn
+

@@ -30,7 +30,7 @@ def read_pdf(data_directory):
                 print(f"Error reading {file_path}: {e}")
     return pdf_text
 
-data_directory = "/home/ubuntu/llm-project/data"
+data_directory = "./data"
 pdf_content = read_pdf(data_directory)
 
 def prepare_context():
